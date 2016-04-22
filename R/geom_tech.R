@@ -12,6 +12,7 @@ techGrob <- function(x, y, size, theme, geom_key = list(
     facebook = "http://blog.icracked.com/wp-content/uploads/2015/03/facebook-icon.png",
     twitter = "https://lh3.ggpht.com/lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300",
     google = "http://logok.org/wp-content/uploads/2015/09/Google-logo-2015-G-icon.png"
+    dnb = "http://www.dnb.com/modern/images/ico-logo.jpg"
     )) {
    
    img <- as.raster(png::readPNG(RCurl::getURLContent(geom_key[[theme[[1]]]])))
