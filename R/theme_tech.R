@@ -34,7 +34,12 @@ theme_tech <- function(theme="airbnb", tech_key = list(
                     family_title="PicoBlackAl"
                     , family_text = "[z] Arista Light"
                     , colour_title = "#5380E4"
-                    , colour_text = "black")
+                    , colour_text = "black"),
+                   dnb = list(
+                    family_title="PicoBlackAl"
+                    , family_text = "[z] Arista Light"
+                    , colour_title = "#5380E4"
+                    , colour_text = "black"), 
                     )) {
 
   theme_classic() + 
